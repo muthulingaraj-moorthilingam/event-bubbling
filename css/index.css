@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+#parent{
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: lime;
+}
+#child1{
+	width:150px;
+	height: 150px;
+	background-color: red;
+}
+#child2{
+	width:100px;
+	height: 100px;
+	background-color:green;
+}
