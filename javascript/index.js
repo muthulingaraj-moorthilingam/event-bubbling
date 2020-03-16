@@ -68,7 +68,7 @@ document.getElementById('parent').addEventListener('click',function(event){
 	//if u stop the bubbling use event.stopPropagation()
 
 	else  if(event.target.id === 'child2'){
-		alert("child2 clicked"+" "+event.target.id +" "+'and parent is'+" "+this);
+		alert("child2 clicked"+" "+event.target.id +" "+'and parent is'+" "+this.id);
 		document.getElementById('child2').style.backgroundColor="#fff";
 	}
 	else{
